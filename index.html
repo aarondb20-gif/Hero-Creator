@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="class.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Hero Creator</title>
+</head>
+<body>
+    <div class="body1">
+        <h1>Create Your Hero</h1>
+
+        <label>Name: <input type="text" name="name" id="nameInput"></label><br>
+        <br><label>Choose Hero: 
+            <select name="hero" id="heroSelect">
+                <option value="warrior">Warrior</option>
+                <option value="wizard">Wizard</option>
+                <option value="cleric">Cleric</option>
+                <option value="rogue">Rogue</option>
+            </select>
+        </label><br>
+        <br><button type="button" id="createButton">Create Your Hero</button>
+    </div>
+    <div class="body2">
+        <h2 id="class"> </h2>
+
+        <button type="button" id="attackButton">Attack</button>
+        <p id="attackText"></p>
+    </div>
+    
+</body>
+</html>

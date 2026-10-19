@@ -1,0 +1,30 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box; 
+}
+
+body{
+	background-color: CornflowerBlue;
+}
+.body1, .body2{
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 40%;
+	background-color: rgb(250, 250, 108);
+	text-align: center;
+	padding-bottom: 20px;
+}
+button{
+	background-color: lightgray;
+	padding: 3px;
+	margin: 5px;
+	border-radius: 4px;
+	
+}
+p{
+	margin: 10px;
+}
